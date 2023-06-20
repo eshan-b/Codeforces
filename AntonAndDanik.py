@@ -1,0 +1,5 @@
+n = int(input())
+games = list(input())
+a_wins = games.count('A')
+print("Anton" if (a_wins > n - a_wins)
+      else ("Danik" if (a_wins < n - a_wins) else "Friendship"))
